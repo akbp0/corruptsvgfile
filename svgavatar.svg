@@ -4,7 +4,7 @@
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
    <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
    <script type="text/javascript">
-      fetch('http://127.0.0.1:5000/delete_ticket/17/')
+      fetch('http://127.0.0.1:5000/delete_ticket/12/')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
